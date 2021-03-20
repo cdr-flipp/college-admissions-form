@@ -1,0 +1,87 @@
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" 
+        crossorigin="anonymous">
+
+    <title>CSC Online Admissions Platform</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1.0">
+</head>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/csc-logo-svg-01.svg" alt="" width="60" height="60">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<body>
+
+  <div class="alert alert-danger" role="alert">
+    This site is still in early ages of development. 
+  </div>
+    
+    <header class="shs">
+        <h1>SHS Admissions</h1>
+    </header>
+
+    <div class="main-content-form">
+      <form>
+        <h3>Academic Information</h3>
+          <label for="shs-year-level">Year Level</label><br>
+          <select name="shs-year-level" id="shs-year-level">
+            <option value="shs-1st-year">First Year/Grade 11</option>
+            <option value="shs-2nd-year">Second Year/Grade 12</option>
+          </select><br>
+          
+          <label for="shs-strand">Strand</label><br>
+          <select name="shs-strand" id="shs-strand">
+            <option value="shs-strand-abm">ABM - Accountancy, Business and Management</option>
+            <option value="shs-strand-stem">STEM - Science, Technology, Engineering and Mathematics</option>
+            <option value="shs-strand-humss">HUMSS - Humanities and Social Sciences</option>
+          </select>
+          
+        <h3>Personal Information</h3>
+          <label for="last-name">Last Name</label><br>
+            <input type="text" id="last-name"><br>
+          <label for="first-name">First Name</label><br>
+            <input type="text" id="first-name"><br>
+          <label for="middle-name">Middle Name (if applicable)</label><br>
+            <input type="text" id="middle-name"><br>
+          <label for="address">Address</label><br>
+            <input type="text" id="address"><br>
+          <label for="guardian-name">Guardian Full Name</label><br>
+            <input type="text" id="guardian-name"><br>
+          <label for="contact-number">Contact Number</label><br>
+            <input type="number" id="contact-number"><br>
+          <label for="date-of-birth">Date of Birth</label><br>
+            <input type="date" id="date-of-birth"><br>
+      </form>
+    </div>
+
+</body>
+
+<footer>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">CSC Online Admissions Platform</span>
+          <span class="navbar-text">
+            Developed by <a href="#">cdr_flipp</a>
+          </span>
+        </div>
+      </nav>
+</footer>
